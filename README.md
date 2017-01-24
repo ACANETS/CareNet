@@ -10,7 +10,7 @@ The API abstraction can be depicted as:
 
 ![alt text][abstraction]
 
-[abstraction]: https://github.com/ACANETS/CareNet/figs/API-v2.eps "The CareNet API Abstraction"
+[abstraction]: https://github.com/ACANETS/CareNet/blob/master/figs/API-v2.eps "The CareNet API Abstraction"
 
 + **Abstraction 1 - Patients**:
 For a human-centric infrastructure, the fundamental elements in the abstraction are the patients that can benefit from various services. To map the many-to-many relationship between patients and care-providers, our proposed abstraction provides the flexibility that each patient can access different services, and different patients (e.g. family members) can access the same service. Patients are the data sources in our model, and they have the ultimate authority to grant access policies to various data users.
